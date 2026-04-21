@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giacalone Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section class="hero" id="inicio">
+        <div class="container">
+            <nav>
+                <ul class="nav-menu">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#coleccion">Colección</a></li>
+                    <li><a href="#destacados">Destacados</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
+                </ul>
+            </nav>
+
+            <h1>Colección exclusiva Giacalone</h1>
+            <p>Una selección de prendas urbanas con presencia, cortes definidos y estilo propio.</p>
+            <a href="#destacados" class="btn">Explorar colección</a>
+        </div>
+    </section>
+
+    <section id="coleccion" class="features">
+        <div class="container">
+            <h2>Selección de temporada</h2>
+            <div class="features-grid">
+                <div class="feature">
+                    <h3>Poleras con carácter</h3>
+                    <p>Diseños limpios y versátiles para construir outfits con una línea urbana marcada.</p>
+                </div>
+                <div class="feature">
+                    <h3>Pantalones de ajuste firme</h3>
+                    <p>Cortes pensados para combinar comodidad, estructura y presencia visual.</p>
+                </div>
+                <div class="feature">
+                    <h3>Zapatillas con identidad street</h3>
+                    <p>Perfiles modernos para cerrar el look con una base fuerte y reconocible.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="destacados" class="pricing">
+        <div class="container">
+            <img src="img.png" alt="Colección Giacalone" class="pricing-img">
+            <h2>Piezas destacadas</h2>
+            <div class="pricing-grid">
+                <div class="price-card">
+                    <h3>Polera Oversize Signature</h3>
+                    <p class="price">$14.990</p>
+                    <ul>
+                        <li>Algodón premium</li>
+                        <li>Tallas: S, M, L, XL</li>
+                    </ul>
+                    <button class="btn" onclick="agregarAlCarrito(1)">Añadir selección</button>
+                </div>
+
+                <div class="price-card">
+                    <h3>Polera Essential Drop</h3>
+                    <p class="price">$16.990</p>
+                    <ul>
+                        <li>Corte urbano relajado</li>
+                        <li>Tallas: S, M, L, XL</li>
+                    </ul>
+                    <button class="btn" onclick="agregarAlCarrito(2)">Añadir selección</button>
+                </div>
+
+                <div class="price-card">
+                    <h3>Pantalón Cargo Street Fit</h3>
+                    <p class="price">$24.990</p>
+                    <ul>
+                        <li>Diseño utilitario moderno</li>
+                        <li>Tallas: 36, 38, 40, 42, 44</li>
+                    </ul>
+                    <button class="btn" onclick="agregarAlCarrito(3)">Añadir selección</button>
+                </div>
+
+                <div class="price-card">
+                    <h3>Pantalón Jogger Black Form</h3>
+                    <p class="price">$27.990</p>
+                    <ul>
+                        <li>Ajuste cómodo y limpio</li>
+                        <li>Tallas: 36, 38, 40, 42, 44</li>
+                    </ul>
+                    <button class="btn" onclick="agregarAlCarrito(4)">Añadir selección</button>
+                </div>
+
+                <div class="price-card">
+                    <h3>Zapatillas Urban Pulse 01</h3>
+                    <p class="price">$59.990</p>
+                    <ul>
+                        <li>Perfil streetwear</li>
+                        <li>Tallas: 36 al 44</li>
+                    </ul>
+                    <button class="btn" onclick="agregarAlCarrito(5)">Añadir selección</button>
+                </div>
+
+                <div class="price-card">
+                    <h3>Zapatillas Street Motion 02</h3>
+                    <p class="price">$64.990</p>
+                    <ul>
+                        <li>Diseño firme y actual</li>
+                        <li>Tallas: 36 al 44</li>
+                    </ul>
+                    <button class="btn" onclick="agregarAlCarrito(6)">Añadir selección</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <div class="container">
+            <h2>Haz tu consulta</h2>
+            <p>Escríbenos para conocer disponibilidad, tallas o próximos lanzamientos.</p>
+            <form>
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo" required>
+                <input type="mensaje" placeholder="Tu mensaje" required>
+                <button type="submit">Enviar mensaje</button>
+            </form>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Giacalone Store - Estilo urbano con sello propio.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
